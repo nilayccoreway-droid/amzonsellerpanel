@@ -50,7 +50,7 @@ export default function Header({ activeMenu, onMenuChange, onManageProducts }: H
       category: 'Marketing',
       items: [
         'Manage Advertisement',
-        'Promotion',
+        'Manage Promotion',
         'Report'
       ]
     },
