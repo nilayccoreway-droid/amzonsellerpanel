@@ -174,7 +174,7 @@ function App() {
         {activeTab === 'products' ? (
           <ProductManagementPage onBack={() => setActiveTab('my-business')} />
         ) : activeTab === 'my-business' ? (
-          <div className="max-w-[1400px] mx-auto px-4 pt-4">
+          <div className="max-w-[1600px] mx-auto px-4 pt-4">
             <ProductActionBar onManageProducts={() => setActiveTab('products')} />
 
             <div className="mt-4">
