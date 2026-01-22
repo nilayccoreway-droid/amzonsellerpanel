@@ -80,7 +80,7 @@ export default function ProductListingPage({ onBack, onEditProduct }: ProductLis
 
   if (loading) {
     return (
-      <div className="max-w-[1600px] mx-auto px-4 pt-4">
+      <div className="max-w-[1800px] mx-auto px-4 pt-4">
         <div className="bg-white border border-gray-200 rounded p-8 text-center">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mx-auto"></div>
           <p className="mt-4 text-gray-600">Loading products...</p>
@@ -90,7 +90,7 @@ export default function ProductListingPage({ onBack, onEditProduct }: ProductLis
   }
 
   return (
-    <div className="max-w-[1600px] mx-auto px-4 pt-4">
+    <div className="max-w-[1800px] mx-auto px-4 pt-4">
       <div className="bg-white border border-gray-200 rounded">
         <div className="px-4 py-3 border-b border-gray-200 flex items-center justify-between">
           <div className="flex items-center gap-3">

@@ -174,7 +174,7 @@ function App() {
         {activeTab === 'products' ? (
           <ProductManagementPage onBack={() => setActiveTab('my-business')} />
         ) : activeTab === 'my-business' ? (
-          <div className="max-w-[1600px] mx-auto px-4 pt-4">
+          <div className="max-w-[1800px] mx-auto px-4 pt-4">
             <ProductActionBar onManageProducts={() => setActiveTab('products')} />
 
             <div className="mt-4">
@@ -210,7 +210,7 @@ function App() {
             />
           </div>
         ) : (
-          <div className="max-w-[1400px] mx-auto px-4 pt-4">
+          <div className="max-w-[1800px] mx-auto px-4 pt-4">
             <div className="bg-white border border-gray-200 rounded p-8 text-center">
               <h2 className="text-xl font-semibold text-gray-900 mb-2 capitalize">
                 {tabs.find(t => t.id === activeTab)?.title}
