@@ -120,7 +120,7 @@ export default function ProductEditPage({ productId, onBack }: ProductEditPagePr
 
   if (loading) {
     return (
-      <div className="max-w-[1400px] mx-auto px-4 pt-4">
+      <div className="max-w-[1600px] mx-auto px-4 pt-4">
         <div className="bg-white border border-gray-200 rounded p-8 text-center">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mx-auto"></div>
           <p className="mt-4 text-gray-600">Loading product...</p>
@@ -131,7 +131,7 @@ export default function ProductEditPage({ productId, onBack }: ProductEditPagePr
 
   if (!product) {
     return (
-      <div className="max-w-[1400px] mx-auto px-4 pt-4">
+      <div className="max-w-[1600px] mx-auto px-4 pt-4">
         <div className="bg-white border border-gray-200 rounded p-8 text-center">
           <p className="text-gray-600">Product not found</p>
           <button
